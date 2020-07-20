@@ -12,3 +12,9 @@ Additional Comments:
 
 
 After the review lecture, go back through this assignment and try to correct as many mistakes as you can. 
+
+
+
+Update: 3/5
+
+Comments: Overall much better job. Make sure you understand why the solution works. 
