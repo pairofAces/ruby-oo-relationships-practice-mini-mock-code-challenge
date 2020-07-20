@@ -1,6 +1,7 @@
 require 'pry'
 require_relative './book'
 require_relative './author'
+require_relative './author_book.rb'
 
 karan = Author.new("Karan S. Chauhan")
 nazia = Author.new("Nazia Talukder")
@@ -13,6 +14,9 @@ ragnar.write_book("Power is given to those who are prepared to lower themselves 
 ragnar.write_book("I wish I Never Left The Farm", 2000)
 ragnar.write_book("Power", 10000)
 
+ab1 = AuthorBook.new(ragnar, "Power")
+ab2 = AuthorBook.new(karan, "autobiography")
+ab3 = AuthorBook.new(nazia, "graduates")
 
 
 binding.pry
